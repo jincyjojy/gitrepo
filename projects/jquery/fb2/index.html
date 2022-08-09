@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <p class="logo-text">facebook</p>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>    
+                            <td><label class="login-label">Email or phone</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="login-button" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgot-controls" href="forgotten.html">Fogotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="left-body-text">Facebook helps you connect and share with the <br>people in your life</p>
+            </div>
+            <div class ="right-section">
+                <h1 class="right-body-text">Create an account</h1>
+                <p class="right-body-para">It's quick and easy</p>
+                <div class="sign-up-controls">
+                    <form  class="signup-form" action="hello2.html" id="sign-up-form">  
+                        <div class="signup-field">
+                            <input class="form-button1" type="text" placeholder="First name" name="fname">
+                            <input class ="form-button1" type="text" placeholder="Surname" name="sname">
+                        </div>
+                        <div class="signup-field">
+                            <input class="form-button2" type="text" placeholder="Mobile number or email address" name="email-address">
+                        </div>
+                        <div class="signup-field">
+                            <input class="form-button2" type="text" placeholder="New password" name="password">
+                        </div>
+                        <div class="signup-field">
+                            <label class="label-text">Birthday</label><br><br>
+                        <select class="birthday-button" name="day" id="">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select class="birthday-button" name="month">
+                            <option value="">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select class="birthday-button" name="year">
+                            <option value="">Year</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                        </select>
+                        </div>
+                        
+                        <div class="signup-field">
+                            <label class="label-text">Gender</label><br><br>
+                            <input type="radio" name="gender" value="Female">
+                            <label for="Female">Female</label>
+                            <input type="radio" name="gender" value="Male">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="gender" value="Custom">
+                            <label for="Custom">Custom</label>
+                        </div>
+                        <div>
+                            <button class="sign-up-button" type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+</html>

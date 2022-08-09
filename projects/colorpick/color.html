@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 400px;
+        }
+        .color_name{
+            height:30px;
+            width: 100px;
+            border-radius: 1px solid black;
+            margin-top: 500px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+    <button class="color_name" onclick="color_pick(value)" name="green" value="green">Green</button>
+    <button class="color_name" onclick="color_pick(value)" name="blue" value="blue">Blue</button>
+    <button class="color_name" onclick="color_pick(value)" name="red" value="red">Red</button>
+    <button class="color_name" onclick="color_pick(value)" name="yellow" value="yellow">Yellow</button>
+    <script>
+        function color_pick(value){
+            document.getElementById("box").style.backgroundColor = value;
+        }
+    </script>
+</body>
+</html>

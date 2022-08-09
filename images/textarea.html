@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>For quesries, please write below:</p>
+    <textarea type="text" rows="15" cols="40" id="my_text"></textarea>
+
+    <p>Question Preview</p>
+    <iframe id="output" srcdoc=""></iframe>
+
+    <p>Click the button to preview the code</p>
+    <button onclick="myFunction()">run</button>
+</body>
+<script>
+    function myFunction(){
+        var x=document.getElementById("my_text").value;
+        document.getElementById("output").srcdoc=x;
+    }
+</script>
+</html>

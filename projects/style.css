@@ -1,0 +1,62 @@
+button{
+    background: green;
+
+}
+p{
+    font-size: 20px;
+    color: brown
+}
+#id1{
+    color: blue;
+}
+#id2{
+    color: hotpink;
+}
+.content{
+    color:blueviolet;
+    background: red;
+}
+.outer-box{
+    background: #009688;
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 200px;
+    padding-top: 50px;
+    border: 1px solid;
+    border-color: #1e1276;
+}
+.website_color{
+    color: white;
+    padding-left:320px;
+    padding-top: 10;
+}
+.inner-box1{
+    width: 40%;
+    height: 30%;
+    float: left;
+    background: brown;
+    margin: 10px;
+}
+.inner-box2{
+    width: 40%;
+    height: 30%;
+    float: left;
+    background: green;
+    margin: 10px;
+}
+.inner-box3{
+    width: 40%;
+    height: 30%;
+    float: left;
+    background: yellow;
+    margin: 10px;
+}
+.inner-box4{
+    width: 40%;
+    height: 30%;
+    float: left;
+    background: cyan;
+    margin: 10px;
+}

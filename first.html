@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <table id='your_portfolio'>
+        <tbody>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Prev Value</th>
+                <th scope="col">Prev Price</th>
+                <th scope="col">Prev Qty</th>
+                <th scope="col">New Price</th>
+                <th scope="col">New Qty</th>
+                <th scope="col">New Value</th>
+            </tr>
+            <tr>
+                <td>Cash</td>
+                <td id="prev_cash">$300</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="new_cash_value" input type="number">$300</td>
+            </tr>
+            <tr>
+                <td>Stock A</td>
+                <td>$300</td>
+                <td> $1</td>
+                <td>300</td>
+                <td class="new_price">$1.5</td>
+                <td>
+                    <input class="new_qty" type="number" value=300 onchange="update_new_values(2)">
+                    <input id = "new_qty_id" type="hidden" value="300">
+                </td>
+                <td class="new_value" input type="number">$450</td>
+            </tr>
+            <tr>
+                <td>Stock B</td>
+                <td>$500</td>
+                <td> $5</td>
+                <td>100</td>
+                <td class="new_price">$5.5</td>
+                <td>
+                    <input class="new_qty" type="number" value=100 onchange="update_new_values(3)">
+                    <input id = "new_qty_id" type="hidden" value="100">
+                </td>
+                <td class="new_value" input type="number">$550</td>
+            </tr>
+            <tr>
+                <td>Stock C</td>
+                <td>$450</td>
+                <td> $1.5</td>
+                <td>300</td>
+                <td class="new_price">$1.25</td>
+                <td>
+                    <input class="new_qty" type="number" value=300 onchange="update_new_values(4)">
+                    <input id = "new_qty_id" type="hidden" value="300">
+                </td>
+                <td class="new_value" input type="number">$375</td>
+            </tr>
+            <tr>
+                <td>Stock D</td>
+                <td>$200</td>
+                <td> $2</td>
+                <td>100</td>
+                <td class="new_price">$1.5</td>
+                <td>
+                    <input class="new_qty" type="number" value=100 onchange="update_new_values(5)">
+                    <input id = "new_qty_id" type="hidden" value="100">
+                </td>
+                <td class="new_value" input type="number">$150</td>
+            </tr>
+            <tr>
+                <td>Stock E</td>
+                <td>$250</td>
+                <td> $5</td>
+                <td>50</td>
+                <td class="new_price">$6.5</td>
+                <td>
+                    <input class="new_qty" type="number" value=50 onchange="update_new_values(6)">
+                    <input id = "new_qty_id" type="hidden" value="50">
+                </td>
+                <td class="new_value" input type="number">$325</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="Total_Prev_Value"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="total_new_value"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="first.js"></script>
+</body>
+</html>
